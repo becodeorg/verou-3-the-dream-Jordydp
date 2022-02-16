@@ -41,14 +41,13 @@ if($_POST["currencytype"] =="Japan"){
     <input type="radio" id="Canada" name="currencytype" value="Canada">Canada<br>
     <input type="radio" id="Switzerland" name="currencytype" value="Switzerland">Switzerland<br>
     <input type="number" name="destination_currency" id="destination_currency"  /><br>
-    <input type ="submit">
-    <div class="result">
-        <?=$resultString?>
-    </div>
+    <input type ="submit" value="Calculate">
+    
 </form>
-<div>
-
-</div>
+<div class="result">
+        <?=$resultString?>
+        
+    </div>
 </body>
 </html>
 
